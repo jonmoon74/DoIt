@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		4557A0EB20CC59920045155F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4557A0EA20CC59920045155F /* Task.swift */; };
 		45A48BC920CB177E00F15C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A48BC820CB177E00F15C9B /* AppDelegate.swift */; };
-		45A48BCB20CB177E00F15C9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A48BCA20CB177E00F15C9B /* ViewController.swift */; };
+		45A48BCB20CB177E00F15C9B /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A48BCA20CB177E00F15C9B /* TasksViewController.swift */; };
 		45A48BCE20CB177E00F15C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A48BCC20CB177E00F15C9B /* Main.storyboard */; };
 		45A48BD120CB177E00F15C9B /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45A48BCF20CB177E00F15C9B /* DoIt.xcdatamodeld */; };
 		45A48BD320CB178100F15C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A48BD220CB178100F15C9B /* Assets.xcassets */; };
 		45A48BD620CB178100F15C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A48BD420CB178100F15C9B /* LaunchScreen.storyboard */; };
+		45F413E820CDB24C0006B981 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F413E720CDB24C0006B981 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4557A0EA20CC59920045155F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		45A48BC520CB177E00F15C9B /* DoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A48BC820CB177E00F15C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45A48BCA20CB177E00F15C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45A48BCA20CB177E00F15C9B /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		45A48BCD20CB177E00F15C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45A48BD020CB177E00F15C9B /* DoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIt.xcdatamodel; sourceTree = "<group>"; };
 		45A48BD220CB178100F15C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45A48BD520CB178100F15C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45A48BD720CB178100F15C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F413E720CDB24C0006B981 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				45A48BC820CB177E00F15C9B /* AppDelegate.swift */,
-				45A48BCA20CB177E00F15C9B /* ViewController.swift */,
+				45A48BCA20CB177E00F15C9B /* TasksViewController.swift */,
+				45F413E720CDB24C0006B981 /* CreateTaskViewController.swift */,
 				4557A0EA20CC59920045155F /* Task.swift */,
 				45A48BCC20CB177E00F15C9B /* Main.storyboard */,
 				45A48BD220CB178100F15C9B /* Assets.xcassets */,
@@ -143,8 +146,9 @@
 			files = (
 				4557A0EB20CC59920045155F /* Task.swift in Sources */,
 				45A48BD120CB177E00F15C9B /* DoIt.xcdatamodeld in Sources */,
-				45A48BCB20CB177E00F15C9B /* ViewController.swift in Sources */,
+				45A48BCB20CB177E00F15C9B /* TasksViewController.swift in Sources */,
 				45A48BC920CB177E00F15C9B /* AppDelegate.swift in Sources */,
+				45F413E820CDB24C0006B981 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
