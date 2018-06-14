@@ -32,7 +32,7 @@ class TasksViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let cell = UITableViewCell()
         let task = tasks[indexPath.row]
         if task.important {
-            cell.textLabel?.text = "‼️ \(task.name)"
+            cell.textLabel?.text = "‼️ \(String(describing: task.name))"
         } else{
             cell.textLabel?.text = task.name
         }
@@ -52,11 +52,11 @@ class TasksViewController: UIViewController, UITableViewDelegate, UITableViewDat
         performSegue(withIdentifier: "addSegue", sender: nil)
     }
     
+   /* func getTasks(){
+        
+    }*/
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "addSegue" {
-            let nextVC = segue.destination as! CreateTaskViewController
-            nextVC.previousVC = self
-        }
         if segue.identifier == "selectTaskSegue" {
             let nextVC = segue.destination as! CompleteTaskViewController
             nextVC.task = sender as! Task
