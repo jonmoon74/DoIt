@@ -145,7 +145,7 @@
                         <viewLayoutGuide key="safeArea" id="SAZ-pK-8pQ"/>
                     </view>
                     <connections>
-                        <outlet property="taskLabel" destination="cAg-cf-hbA" id="9jz-tQ-c1Q"/>
+                        <outlet property="taskLabel" destination="5Ey-1A-tza" id="Hcm-IJ-fgV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q6P-Dt-bJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
